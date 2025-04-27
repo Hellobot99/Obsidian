@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "preview",
+                "file": "3-1/Data_Communication/Chapter 2-2. Wireless Channels.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Chapter 2-2. Wireless Channels"
             }
           }
         ]
@@ -181,7 +181,17 @@
   },
   "active": "2f3c979cd5967e26",
   "lastOpenFiles": [
+    "3-1/Data_Communication/Chapter 2-1. Physical Layer.md",
+    "3-1/Data_Communication/Chapter 2-2. Wireless Channels.md",
+    "3-1/Data_Communication/Chapter 1. Introduction.md",
+    "3-1/Alagorithm_Practice/Algorithms - Efficiency, Analysis, and Order.md",
+    "3-1/System_Programming/Chapter 7. Event-Driven Programming, Writinfg a Video Game.md",
+    "3-1/System_Programming/Chapter 5. Connection Control, Studying stty.md",
+    "3-1/System_Programming/Chapter 4. Understanding Processes, System Call.md",
+    "3-1/System_Programming/Chapter 3. Directories and File Properties.md",
+    "3-1/System_Programming/Chapter 2. Users, Files, and the Manual.md",
     "3-1/System_Programming/Chapter 8. Processes and Programs.md",
+    "README.md",
     "3-1/Programming_Basic",
     "3-1/무제.md",
     "3-1/Alagorithm_Practice",
