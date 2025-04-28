@@ -11,14 +11,14 @@
             "id": "2f3c979cd5967e26",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "3-1/Data_Communication/Chapter 3-1. Data-Link Layer.md",
-                "mode": "preview",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Chapter 3-1. Data-Link Layer"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -181,12 +181,14 @@
   },
   "active": "2f3c979cd5967e26",
   "lastOpenFiles": [
+    "3-1/System_Programming/Chapter 8. Processes and Programs.md",
+    "System_Programming/Chapter 8. Processes and Programs.md",
+    "3-1/Data_Communication/Chapter 3-1. Data-Link Layer.md",
     "Image",
     "3-1/Data_Communication/Chapter 2-1. Physical Layer.md",
     "3-1/System_Programming/Chapter 2. Users, Files, and the Manual.md",
     "3-1/Network_Programming/Chapter 9. 소켓 옵션과 입출력 버퍼의 크기.md",
     "3-1/Network_Programming/Appendix 4. 문자열 처리.md",
-    "3-1/Data_Communication/Chapter 3-1. Data-Link Layer.md",
     "3-1/Data_Communication/Chapter 2-2. Wireless Channels.md",
     "Image/Block Coding.png",
     "Image/Bit-Oriented Framing.png",
@@ -198,7 +200,6 @@
     "3-1/System_Programming/Chapter 5. Connection Control, Studying stty.md",
     "3-1/System_Programming/Chapter 4. Understanding Processes, System Call.md",
     "3-1/System_Programming/Chapter 3. Directories and File Properties.md",
-    "3-1/System_Programming/Chapter 8. Processes and Programs.md",
     "3-1/Programming_Basic",
     "3-1/무제.md",
     "3-1/Alagorithm_Practice",
