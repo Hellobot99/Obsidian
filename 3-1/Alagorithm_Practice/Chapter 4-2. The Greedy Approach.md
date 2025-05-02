@@ -92,7 +92,7 @@ void make_encoder(node_ptr node, string code, map &encoder) {
 	} 
 }
 ```
-![[Pasted image 20250502134401.png]]
+![[Huffman3.png]]
 
 ## Decoding Huffman Code (string -> char)
 
@@ -115,4 +115,4 @@ void decode(node_ptr root, node_ptr node, string s, int i) {
 }
 ```
 
-![[Pasted image 20250502134655.png]]
+![[Huffman4.png]]
