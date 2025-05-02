@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "aa297138f84bfe06",
+        "id": "8a78faa51a13c1c1",
         "type": "tabs",
         "children": [
           {
-            "id": "2f3c979cd5967e26",
+            "id": "dac32b683a6ac9c7",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "3-1/Alagorithm_Practice/Chapter 4-2. The Greedy Approach.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "Chapter 4-2. The Greedy Approach"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5b0e2ca9db5ea215",
@@ -166,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,8 +180,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2f3c979cd5967e26",
+  "active": "dac32b683a6ac9c7",
   "lastOpenFiles": [
+    "Pasted image 20250502134655.png",
+    "Pasted image 20250502134401.png",
+    "Image/Huffman2.png",
+    "Image/Huffman1.png",
+    "3-1/Alagorithm_Practice/Chapter 4-2. The Greedy Approach.md",
+    "3-1/Alagorithm_Practice/Algorithms - Efficiency, Analysis, and Order.md",
+    "3-1/Network_Programming/Appendix 4. 문자열 처리.md",
+    "Image/Algorithm_feasible_set.png",
+    "3-1/System_Programming/Chapter 5. Connection Control, Studying stty.md",
+    "3-1/System_Programming/Chapter 4. Understanding Processes, System Call.md",
+    "3-1/System_Programming/Chapter 3. Directories and File Properties.md",
+    "3-1/System_Programming/Chapter 7. Event-Driven Programming, Writinfg a Video Game.md",
     "3-1/System_Programming/Chapter 8. Processes and Programs.md",
     "System_Programming/Chapter 8. Processes and Programs.md",
     "3-1/Data_Communication/Chapter 3-1. Data-Link Layer.md",
@@ -188,18 +201,12 @@
     "3-1/Data_Communication/Chapter 2-1. Physical Layer.md",
     "3-1/System_Programming/Chapter 2. Users, Files, and the Manual.md",
     "3-1/Network_Programming/Chapter 9. 소켓 옵션과 입출력 버퍼의 크기.md",
-    "3-1/Network_Programming/Appendix 4. 문자열 처리.md",
     "3-1/Data_Communication/Chapter 2-2. Wireless Channels.md",
     "Image/Block Coding.png",
     "Image/Bit-Oriented Framing.png",
     "Image/Character-Oriented Framing.png",
     "README.md",
     "3-1/Data_Communication/Chapter 1. Introduction.md",
-    "3-1/Alagorithm_Practice/Algorithms - Efficiency, Analysis, and Order.md",
-    "3-1/System_Programming/Chapter 7. Event-Driven Programming, Writinfg a Video Game.md",
-    "3-1/System_Programming/Chapter 5. Connection Control, Studying stty.md",
-    "3-1/System_Programming/Chapter 4. Understanding Processes, System Call.md",
-    "3-1/System_Programming/Chapter 3. Directories and File Properties.md",
     "3-1/Programming_Basic",
     "3-1/무제.md",
     "3-1/Alagorithm_Practice",
