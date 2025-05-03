@@ -11,12 +11,14 @@
             "id": "dac32b683a6ac9c7",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Image/Huffman4.png"
+                "file": "3-1/Network_Programming/Chapter 10. 멀티프로세스 기반의 서버 구현.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Huffman4"
+              "icon": "lucide-file",
+              "title": "Chapter 10. 멀티프로세스 기반의 서버 구현"
             }
           }
         ]
@@ -177,33 +179,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c2c90997ecfd6211",
+  "active": "dac32b683a6ac9c7",
   "lastOpenFiles": [
-    "Image/Huffman3.png",
+    "3-1/Network_Programming/Chapter 9. 소켓 옵션과 입출력 버퍼의 크기.md",
+    "Image/Multiprocess3.png",
+    "3-1/Network_Programming/Chapter 10. 멀티프로세스 기반의 서버 구현.md",
+    "Image/Multiprocess2.png",
+    "3-1/Data_Communication/Chapter 3-1. Data-Link Layer.md",
+    "Image/Multiprocess1.png",
     "3-1/Alagorithm_Practice/Chapter 4-2. The Greedy Approach.md",
-    "Image/Huffman4.png",
-    "Image/Huffman2.png",
-    "Image/Huffman1.png",
+    "3-1/Data_Communication/Chapter 1. Introduction.md",
+    "3-1/System_Programming/Chapter 8. Processes and Programs.md",
     "3-1/Alagorithm_Practice/Algorithms - Efficiency, Analysis, and Order.md",
     "3-1/Network_Programming/Appendix 4. 문자열 처리.md",
+    "3-1/Data_Communication/Chapter 2-2. Wireless Channels.md",
+    "3-1/Data_Communication/Chapter 2-1. Physical Layer.md",
+    "README.md",
+    "Image/Huffman4.png",
+    "Image/Huffman3.png",
+    "Image/Huffman2.png",
+    "Image/Huffman1.png",
     "Image/Algorithm_feasible_set.png",
     "3-1/System_Programming/Chapter 5. Connection Control, Studying stty.md",
     "3-1/System_Programming/Chapter 4. Understanding Processes, System Call.md",
     "3-1/System_Programming/Chapter 3. Directories and File Properties.md",
     "3-1/System_Programming/Chapter 7. Event-Driven Programming, Writinfg a Video Game.md",
-    "3-1/System_Programming/Chapter 8. Processes and Programs.md",
     "System_Programming/Chapter 8. Processes and Programs.md",
-    "3-1/Data_Communication/Chapter 3-1. Data-Link Layer.md",
     "Image",
-    "3-1/Data_Communication/Chapter 2-1. Physical Layer.md",
     "3-1/System_Programming/Chapter 2. Users, Files, and the Manual.md",
-    "3-1/Network_Programming/Chapter 9. 소켓 옵션과 입출력 버퍼의 크기.md",
-    "3-1/Data_Communication/Chapter 2-2. Wireless Channels.md",
     "Image/Block Coding.png",
     "Image/Bit-Oriented Framing.png",
-    "Image/Character-Oriented Framing.png",
-    "README.md",
-    "3-1/Data_Communication/Chapter 1. Introduction.md",
     "3-1/Programming_Basic",
     "3-1/무제.md",
     "3-1/Alagorithm_Practice",
