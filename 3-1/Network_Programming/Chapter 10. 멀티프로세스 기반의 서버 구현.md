@@ -4,9 +4,10 @@
 2. Multiplexing Server
 3. Multithread Server
 
+---
 # Multiprocess Server
 
-## fork() 함수
+## `fork()` 함수
 
 - 프로세스의 복사본을 생성
 	
@@ -25,12 +26,12 @@ else //Parent
 
 ## 좀비 프로세스
 
-- 실행이 완료 되었음에도 소멸되지 않은 프로세스
-- 자식 프로세스의 반환값을 부모 프로세스가 받아야 프로세스가 소멸
+- 실행이 완료되었으나 소멸되지 않은 프로세스
+- 부모가 자식의 종료 상태를 회수해야 완전 종료
 
 ## 좀비 프로세스의 소멸 방법
 
-### 1. wait() 함수 (Blocking)
+### 1. `wait()` 함수 (Blocking)
 
 - pid_t wait(int \*status)
 	
@@ -44,7 +45,7 @@ if(WIFEXITED(status))
 ```
 
 
-### 2. waitpid() 함수 (Non-Blocking possible)
+### 2. `waitpid()` 함수 (Non-Blocking possible)
 
 - pid_t wiatpid(pid_t pid, int \*status, int options)
 	
@@ -62,14 +63,16 @@ if(WIFEXITED(status))
 	printf("Child sent %d \n", WEXITSTATUS(status));
 ```
 
-## Signal 함수
+## `Signal` 함수
 
 - typedef void (\*sighandler_t)(int)
 	ex) signal(SIGCHLD, mychild); 자식 프로세스가 종료되면 mychild 함수를 호출
 	
 - unsigned int alarm(unsigned int seconds)
+	시간이 되면 Signal 발생
 	
 - unsigned int sleep(unsigned int seconds)
+	시간이 다 되거나 시그널이 올 때까지 블록킹
 
 ```c
 void timeout(int sig) { 
@@ -86,7 +89,7 @@ int main(int argc, char *argv[]) {
 }
 ```
 
-## Sigaction 함수
+## `Sigaction` 함수
 
 - int sigaction(int signum, const struct sigaction \*act, struct sigaction \*oldact)
 	 성공 시 0, 실패 시 1 반환
@@ -122,6 +125,7 @@ int main(int argc, char *argv[]) {
 }
 ```
 
+---
 # 멀티 프로세스 기반 다중접속 서버 모델
 
 ## 서버
