@@ -223,7 +223,7 @@ node = 단말(터미널), 라우터 (LAN, WAN은 노드로 취급하지 않는�
 
 ### 프레임 종류
 
-  ![[frame.png]]
+  ![[frame1.png]]
 
 - **I-frame (Information frame)**:
 
@@ -252,7 +252,7 @@ node = 단말(터미널), 라우터 (LAN, WAN은 노드로 취급하지 않는�
 ---
 ### Control Field 세부 구성
   
-![[Pasted image 20250507230035.png]]
+![[frame2.png]]
 #### I-frame  
 
 - 시작 비트: `0`
