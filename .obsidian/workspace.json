@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "계획.md",
+                "file": "3-1/Network_Programming/Chapter 12. IO 멀티플렉싱 기반 서버.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "계획"
+              "title": "Chapter 12. IO 멀티플렉싱 기반 서버"
             }
           }
         ]
@@ -181,10 +181,15 @@
   },
   "active": "91779d7ea4f8d8ac",
   "lastOpenFiles": [
-    "Image/plan.png",
-    "계획.md",
-    "Socket/Thread.md",
+    "3-1/Network_Programming/Chapter 11. 프로세스 간 통신.md",
+    "3-1/Network_Programming/Chapter 12. IO 멀티플렉싱 기반 서버.md",
+    "Pasted image 20250510214016.png",
+    "Pasted image 20250510213934.png",
+    "3-1/Network_Programming/Chapter 10. 멀티프로세스 기반의 서버 구현.md",
     "Socket/Epoll.md",
+    "Socket/Thread.md",
+    "계획.md",
+    "Image/plan.png",
     "3-1/Programming_Basic/Chapter 10-2. 재귀함수.md",
     "2025-05-08.md",
     "3-1/Programming_Basic/Chapter 12. 변수 유효범위.md",
@@ -201,11 +206,8 @@
     "3-1/System_Programming/Chapter 8. Processes and Programs.md",
     "Image/crc2.png",
     "Image/crc1.png",
-    "Pasted image 20250507210924.png",
-    "Pasted image 20250507202557.png",
     "Socket/Poll.md",
     "Socket/Select.md",
-    "3-1/Network_Programming/Chapter 10. 멀티프로세스 기반의 서버 구현.md",
     "Socket",
     "3-1/Alagorithm_Practice/Chapter 4-2. The Greedy Approach.md",
     "3-1/Data_Communication/Chapter 1. Introduction.md",
@@ -217,7 +219,6 @@
     "3-1/System_Programming/Chapter 4. Understanding Processes, System Call.md",
     "3-1/System_Programming/Chapter 3. Directories and File Properties.md",
     "3-1/System_Programming/Chapter 7. Event-Driven Programming, Writinfg a Video Game.md",
-    "System_Programming/Chapter 8. Processes and Programs.md",
     "Image",
     "3-1/Programming_Basic",
     "3-1/Alagorithm_Practice",
