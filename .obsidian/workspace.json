@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-1/Alagorithm_Practice/Chapter 5. Backtracking.md",
+                "file": "3-1/Programming_Basic/Chapter 10-2. 재귀함수.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 5. Backtracking"
+              "title": "Chapter 10-2. 재귀함수"
             }
           }
         ]
@@ -179,10 +179,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c2c90997ecfd6211",
+  "active": "91779d7ea4f8d8ac",
   "lastOpenFiles": [
-    "Image/mcoloring.png",
+    "3-1/Programming_Basic/Chapter 12. 변수 유효범위.md",
+    "3-1/Programming_Basic/Chapter 10-2. 재귀함수.md",
     "3-1/Alagorithm_Practice/Chapter 5. Backtracking.md",
+    "Image/mcoloring.png",
     "Pasted image 20250513132121.png",
     "Image/sumofsubset.png",
     "Image/nqueen.png",
@@ -199,9 +201,7 @@
     "Socket/Epoll.md",
     "계획.md",
     "Image/plan.png",
-    "3-1/Programming_Basic/Chapter 10-2. 재귀함수.md",
     "2025-05-08.md",
-    "3-1/Programming_Basic/Chapter 12. 변수 유효범위.md",
     "Image/static.png",
     "Image/frame2.png",
     "Image/frame1.png",
