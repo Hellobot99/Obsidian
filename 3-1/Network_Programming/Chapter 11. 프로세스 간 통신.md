@@ -3,7 +3,7 @@
 
 - int pipe(int filedes[2])
 
-![[Pasted image 20250510214016.png]]
+![[pipe.png]]
 
 ```c
 pipe(fds1); 

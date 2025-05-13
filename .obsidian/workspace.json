@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-1/Network_Programming/Chapter 12. IO 멀티플렉싱 기반 서버.md",
+                "file": "3-1/Data_Communication/Chapter 3-1. Data-Link Layer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 12. IO 멀티플렉싱 기반 서버"
+              "title": "Chapter 3-1. Data-Link Layer"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5b0e2ca9db5ea215",
@@ -181,13 +182,14 @@
   },
   "active": "91779d7ea4f8d8ac",
   "lastOpenFiles": [
-    "3-1/Network_Programming/Chapter 11. 프로세스 간 통신.md",
+    "Image/pipe.png",
+    "Socket/Select.md",
+    "Socket/Thread.md",
     "3-1/Network_Programming/Chapter 12. IO 멀티플렉싱 기반 서버.md",
-    "Pasted image 20250510214016.png",
+    "3-1/Network_Programming/Chapter 11. 프로세스 간 통신.md",
     "Pasted image 20250510213934.png",
     "3-1/Network_Programming/Chapter 10. 멀티프로세스 기반의 서버 구현.md",
     "Socket/Epoll.md",
-    "Socket/Thread.md",
     "계획.md",
     "Image/plan.png",
     "3-1/Programming_Basic/Chapter 10-2. 재귀함수.md",
@@ -207,7 +209,6 @@
     "Image/crc2.png",
     "Image/crc1.png",
     "Socket/Poll.md",
-    "Socket/Select.md",
     "Socket",
     "3-1/Alagorithm_Practice/Chapter 4-2. The Greedy Approach.md",
     "3-1/Data_Communication/Chapter 1. Introduction.md",
@@ -218,7 +219,6 @@
     "3-1/System_Programming/Chapter 5. Connection Control, Studying stty.md",
     "3-1/System_Programming/Chapter 4. Understanding Processes, System Call.md",
     "3-1/System_Programming/Chapter 3. Directories and File Properties.md",
-    "3-1/System_Programming/Chapter 7. Event-Driven Programming, Writinfg a Video Game.md",
     "Image",
     "3-1/Programming_Basic",
     "3-1/Alagorithm_Practice",

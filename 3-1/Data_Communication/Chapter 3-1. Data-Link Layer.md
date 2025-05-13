@@ -285,3 +285,195 @@ node = 단말(터미널), 라우터 (LAN, WAN은 노드로 취급하지 않는�
 - 시작 비트: `11`
 
 - 다음 5비트로 **32가지 명령** 표현 가능
+
+---
+
+## Two DLC Protocols - Point to Point Protocol
+
+### PPP 프레임 구조 (7 fields)
+
+|필드명|설명|
+|---|---|
+|**Flag**|프레임의 시작과 끝을 나타냄. 값: `01111110`|
+|**Address**|항상 `11111111`로 고정 (브로드캐스트 주소)|
+|**Control**|항상 `00000011`로 고정 (HDLC의 U-프레임 모방)|
+|**Protocol**|상위 계층의 어떤 프로토콜인지 식별 (ex. LCP, IP 등)|
+|**Payload**|데이터가 들어가는 영역|
+|**FCS**|Frame Check Sequence (오류 검출용 CRC)|
+
+---
+
+### Byte Stuffing
+
+- PPP는 바이트 지향 프로토콜이므로 **Byte Stuffing**을 사용
+    
+- 데이터 영역에 플래그(`01111110`)와 같은 패턴이 나오면 **ESC(`01111101`)** 바이트를 앞에 붙여 전송
+    
+- ESC 자체도 또 다른 ESC로 이스케이프 처리함
+    
+
+---
+
+### PPP Multiplexing
+
+PPP는 다음과 같은 **다른 프로토콜들과 함께 사용**됩니다:
+
+#### 1. LCP (Link Control Protocol)
+
+- 링크 생성, 유지, 설정, 종료
+    
+- 링크의 옵션 협상
+    
+
+#### 2. AP (Authentication Protocol)
+
+- 사용자 인증
+    
+- **PAP (Password Authentication Protocol)**
+    
+    - 사용자 이름 + 비밀번호 전송 → 유효성 확인
+        
+- **CHAP (Challenge Handshake Authentication Protocol)**
+    
+    - 3-way handshake 방식으로 보안 강화
+        
+    - 순서:
+        
+        1. 서버 → 클라이언트로 challenge 값 전송
+            
+        2. 클라이언트는 challenge 값 + 비밀번호로 해시 → 서버로 전송
+            
+        3. 서버도 동일 계산 → 결과 비교
+            
+
+#### 3. NCP (Network Control Protocol)
+
+- 여러 **네트워크 계층 프로토콜(IP, OSI 등)**을 지원하기 위한 설정용
+    
+- 예: IPCP (Internet Protocol Control Protocol) – IP 데이터 전송을 위한 설정
+    
+
+---
+
+## MAC (Media Access Control)
+
+### 1. Random Access Protocols (경쟁 기반)
+
+- 충돌(Collision) 발생 가능성 O, 우선순위 X
+    
+- 모든 노드가 동일한 권한으로 데이터를 전송 가능
+    
+- 대표 프로토콜: **ALOHA**
+    
+
+---
+
+### ALOHA
+
+#### ▸ Pure ALOHA
+
+- 아무 때나 프레임 전송 가능
+    
+- 충돌 가능성 높음
+    
+- 충돌이 발생하면 **Backoff 알고리즘**을 통해 재전송
+    
+
+**Backoff 계산:**
+
+```
+T(b) = R(0 ~ 2^k - 1) × (T(p) 또는 T(fr))
+k = 시도 횟수
+```
+
+**용어 정리:**
+
+- `T(p)` : 최대 전파 지연 시간 (예: 거리 / 빛의 속도)
+    
+- `T(fr)` : 프레임 하나 전송에 걸리는 시간
+    
+- `Vulnerable time` : 충돌이 일어날 수 있는 시간 = `2 × T(fr)`
+    
+- `Throughput` : 단위 시간당 성공적으로 전송된 프레임 비율
+    
+    - **S = G × e^(-2G)**
+        
+    - G = 평균적으로 `T(fr)` 동안 생성되는 프레임 수
+        
+
+**예시 문제 정리:**
+
+1. **전파 지연 시간 계산**
+    
+    - 거리: 600km
+        
+    - T(p) = 600,000 / 300,000,000 = **2ms**
+        
+    - k = 2, R = {0,1,2,3}
+        
+    - → T(b) = {0, 2, 4, 6} ms
+        
+2. **충돌 없는 전송 조건**
+    
+    - 채널 속도: 200 kbps, 프레임 크기: 200 bit
+        
+    - T(fr) = 200 / 200,000 = **1ms**
+        
+    - Vulnerable time = 2 × 1ms = **2ms**
+        
+3. **Throughput 계산**
+    
+    - T(fr) = 1ms
+        
+    - G 값에 따라 S 계산:
+        
+        - G = 1 → S ≈ 0.135
+            
+        - G = 0.5 → S ≈ 0.184 (최대 처리량)
+            
+        - G = 0.25 → S ≈ 0.152
+            
+
+---
+
+#### ▸ Slotted ALOHA
+
+- **슬롯 시간 단위**로 나눠서 전송 → 충돌 가능성 줄어듦
+    
+- Vulnerable time = `T(fr)`
+    
+- **Throughput 공식:**
+    
+    - S = G × e^(-G)
+        
+    - 최대 Throughput: 0.368 (G = 1일 때)
+        
+
+**예시 문제 정리:**
+
+1. **시스템에서 초당 1000개의 프레임을 생성**
+    
+    - T(fr) = 200 / 200,000 = **1ms**
+        
+    - G = 1
+        
+    - S = G × e^(-G) = 1 × e^(-1) ≈ **0.368**
+        
+    - Throughput = 1000 × 0.368 = **368개 성공**
+        
+2. **시스템에서 초당 500개의 프레임을 생성**
+    
+    - G = 0.5
+        
+    - S = 0.5 × e^(-0.5) ≈ **0.303**
+        
+    - Throughput = 500 × 0.303 = **151개 성공**
+        
+3. **시스템에서 초당 250개의 프레임을 생성**
+    
+    - G = 0.25
+        
+    - S = 0.25 × e^(-0.25) ≈ **0.195**
+        
+    - Throughput = 250 × 0.195 = **49개 성공**
+        
