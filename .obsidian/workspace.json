@@ -11,14 +11,12 @@
             "id": "fa133dcc1c76e77e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "3-1/Programming_Basic/14-2. 포인터2.md",
-                "mode": "source",
-                "source": false
+                "file": "Image/CSMA2.png"
               },
-              "icon": "lucide-file",
-              "title": "14-2. 포인터2"
+              "icon": "lucide-image",
+              "title": "CSMA2"
             }
           }
         ]
@@ -179,14 +177,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fa133dcc1c76e77e",
+  "active": "e567dc73b8e1e843",
   "lastOpenFiles": [
-    "3-1/Programming_Basic/Chapter 14-1. 포인터 기초.md",
+    "README.md",
+    "Image/CSMA1.png",
+    "Image/CSMA2.png",
+    "계획.md",
+    "3-1/Network_Programming/Chapter 14. Multicast, Broadcast.md",
+    "3-1/Network_Programming/Chapter 13. 다양한 입출력 함수들.md",
+    "3-1/Data_Communication/Chapter 3-1. Data-Link Layer.md",
     "3-1/Programming_Basic/14-2. 포인터2.md",
+    "3-1/Programming_Basic/Chapter 14-1. 포인터 기초.md",
     "3-1/Alagorithm_Practice/Chapter 5. Backtracking.md",
     "3-1/Alagorithm_Practice/Chapter 4-2. The Greedy Approach.md",
-    "3-1/Data_Communication/Chapter 3-1. Data-Link Layer.md",
-    "Socket/Thread.md",
-    "계획.md"
+    "Socket/Thread.md"
   ]
 }
