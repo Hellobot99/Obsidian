@@ -508,6 +508,160 @@ CSMA는 충돌을 줄이기 위해 **전송 전에 매체 상태를 감지하는
 - 만약 누가 전송하고 있으면: 일정 시간 **backoff**
 
 ---
-#### CSMA/CD
+## CSMA/CD
 
 - CSMA 를 사용하며 Collision Detection 기능이 있다.
+- 보내다가 충돌 발생 시 멈추고 나중에 재 전송한다.
+- 데이터를 모두 보낸 후에 충돌이 발생한 걸 알아도 버퍼 특성상 재전송이 불가능 하기 때문에 프레임을 전송하는 도중에 충돌이 났는지 알아야 한다.
+- CSMA/CD에서 충돌을 감지하려면 프레임 전송이 끝나기 전까지 충돌 신호가 돌아와야 하므로, 프레임 전송 시간은 최소 2배의 전파 지연 시간 이상이어야 한다.
+
+예시 문제
+
+- 대역폭 : 10 Mbps
+- Maximum paropagation time : 25.6
+
+minimum size of frame 의 값은? 
+
+25.6 * 2 = 51.2 (왔다갔다하는 시간)
+51.2 * 10 = 512bits
+
+#### Throuput
+
+- CSMA/CD는 **ALOHA**나 **슬롯 ALOHA**보다 훨씬 더 높은 처리량을 보장함
+- **1-persistent 방식**에서는 G = 1일 때 처리량이 최대이며 **약 50%** 수준
+- **nonpersistent 방식**은 G가 3~8 사이일 때 처리량이 **최대 90%까지** 올라갈 수 있음
+
+CSMA/CA 도 있다.
+
+---
+## Controlled Access
+
+- Reservation : 데이터 스테이션은 데이터를 보내기 전에 미리 예약을 한다.
+![[Pasted image 20250519212712.png]]
+
+- Polling : Primary station 과 secondary stations 사이에서 Primary 가 secondary 한테 Poll을 보내면 secondary stations이 대답하는 구조
+![[Pasted image 20250519213020.png]]
+
+- Token Passing : station 사이에서 토큰이 돌면서 제어권을 획득
+
+## 4 LINK-LAYER ADDRESSING
+
+- 패킷을 **어떤 경로로 보낼지는 다른 정보가 필요**, 경로는 알 수 없음
+- IP 헤더에 있는 **Source IP**와 **Destination IP**는 누가 보냈고, 누가 받아야 하는지를 명확히 함
+![[Pasted image 20250519214109.png]]
+
+Unicast Address :
+	A2:34:45:11:92:F1 처럼 두번째 숫자가 짝수
+
+Multicast address : 
+	A3:34:45:11:92:F1 처럼 두번째 숫자가 홀수
+
+Broadcast address :
+	FF:FF:FF:FF:FF:FF 처럼 모든 숫자가 F
+
+## CSMA/CD
+
+- CSMA 를 사용하며 Collision Detection 기능이 있다.
+    
+- 보내다가 충돌 발생 시 멈추고 나중에 재전송한다.
+    
+- 데이터를 모두 보낸 후에 충돌이 발생한 걸 알아도 버퍼 특성상 재전송이 불가능하기 때문에, 프레임을 전송하는 **도중에** 충돌이 났는지 알아야 한다.
+    
+- CSMA/CD에서 충돌을 감지하려면 **프레임 전송이 끝나기 전까지** 충돌 신호가 돌아와야 하므로, 프레임 전송 시간은 **최소 2배의 전파 지연 시간 이상**이어야 한다.
+    
+
+### 예시 문제
+
+- 대역폭 : 10 Mbps (즉, 10^7 bps)
+    
+- Maximum propagation time : 25.6 μs
+    
+
+최소프레임전송시간=2×25.6μs=51.2μs최소 프레임 전송 시간 = 2 \times 25.6 \mu s = 51.2 \mu s  
+최소프레임크기=107×51.2μs=512 bits =64 bytes최소 프레임 크기 = 10^7 \times 51.2 \mu s = 512 \text{ bits } = 64 \text{ bytes}
+
+따라서 Ethernet의 최소 프레임 크기는 **64 bytes**.
+
+---
+
+## Throughput
+
+- CSMA/CD는 **ALOHA**나 **슬롯 ALOHA**보다 훨씬 더 높은 처리량을 보장함.
+    
+- **1-persistent 방식**:
+    
+    - G = 1일 때 최대 처리량, 약 **50%**
+        
+- **nonpersistent 방식**:
+    
+    - G = 3 ~ 8일 때 최대 처리량, 약 **90%**
+        
+- * G: offered load (단위 시간당 평균 프레임 수)
+    
+
+---
+
+## CSMA/CA
+
+- Collision Avoidance 방식으로, **무선 네트워크에서 주로 사용**됨.
+    
+- CSMA/CD는 충돌 후 처리이지만, CA는 **충돌 자체를 피하는 방식**
+    
+
+---
+
+## Controlled Access
+
+> 하나의 채널을 여러 스테이션이 공유할 때, 충돌 없이 순서를 정해 접근하는 방식
+
+### Reservation
+
+![[Pasted image 20250519212712.png]]
+
+- 시간 슬롯이 존재하며, **미리 예약**한 스테이션만 데이터 전송 가능
+    
+- 예약 프레임 → 데이터 프레임 순서로 전송됨 (Figure 37 참고)
+    
+
+### Polling
+
+![[Pasted image 20250519213020.png]]
+
+- **Primary Station**이 모든 통신 제어권 가짐
+    
+- **Secondary Station**은 Primary로부터 Poll을 받을 때만 응답 가능
+    
+- Master-Slave 구조 (Figure 38 참고)
+    
+
+### Token Passing
+
+- 논리적 링 구조에서 **Token**이 돌며 제어권이 전달됨
+    
+- Token을 받은 스테이션만 전송 가능 (Figure 39 참고)
+    
+
+---
+
+## 4. Link-Layer Addressing
+
+> IP 주소만으로는 **중간 경로의 링크 주소**를 결정할 수 없음  
+> 따라서 링크 계층 주소 (MAC address)가 필요
+
+![[Pasted image 20250519214109.png]]
+### Address 종류
+
+- **Unicast Address** : 한 호스트에만 전달
+    
+    - 예시: A2:34:45:11:92:F1 (첫 바이트의 두 번째 비트 = 0, 짝수)
+        
+- **Multicast Address** : 특정 그룹에 전달
+    
+    - 예시: A3:34:45:11:92:F1 (첫 바이트의 두 번째 비트 = 1, 홀수)
+        
+- **Broadcast Address** : 네트워크 내 모든 호스트에게 전달
+    
+    - 예시: FF:FF:FF:FF:FF:FF
+        
+
+> MAC 주소는 48비트 (6바이트), 12자리 16진수로 표현됨

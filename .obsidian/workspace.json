@@ -11,12 +11,14 @@
             "id": "fa133dcc1c76e77e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Image/CSMA2.png"
+                "file": "3-1/Data_Communication/Chpater 3-2. Wireless Transmissions.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "CSMA2"
+              "icon": "lucide-file",
+              "title": "Chpater 3-2. Wireless Transmissions"
             }
           }
         ]
@@ -177,15 +179,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e567dc73b8e1e843",
+  "active": "fa133dcc1c76e77e",
   "lastOpenFiles": [
+    "Pasted image 20250519230949.png",
+    "3-1/Data_Communication/Chapter 1. Introduction.md",
+    "3-1/Data_Communication/Chapter 3-1. Data-Link Layer.md",
+    "Pasted image 20250519214109.png",
+    "Pasted image 20250519213020.png",
+    "Pasted image 20250519212712.png",
+    "3-1/Data_Communication/Chpater 3-2. Wireless Transmissions.md",
+    "3-1/Network_Programming/Chapter 10. 멀티프로세스 기반의 서버 구현.md",
+    "3-1/Network_Programming/Chapter 11. 프로세스 간 통신.md",
+    "3-1/Network_Programming/Chapter 12. IO 멀티플렉싱 기반 서버.md",
+    "Image/CSMA2.png",
     "README.md",
     "Image/CSMA1.png",
-    "Image/CSMA2.png",
     "계획.md",
     "3-1/Network_Programming/Chapter 14. Multicast, Broadcast.md",
     "3-1/Network_Programming/Chapter 13. 다양한 입출력 함수들.md",
-    "3-1/Data_Communication/Chapter 3-1. Data-Link Layer.md",
     "3-1/Programming_Basic/14-2. 포인터2.md",
     "3-1/Programming_Basic/Chapter 14-1. 포인터 기초.md",
     "3-1/Alagorithm_Practice/Chapter 5. Backtracking.md",
