@@ -11,12 +11,14 @@
             "id": "fa133dcc1c76e77e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20250519212712.png"
+                "file": "3-1/Alagorithm_Practice/Chapter 5-7. Knapsack Problem.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250519212712"
+              "icon": "lucide-file",
+              "title": "Chapter 5-7. Knapsack Problem"
             }
           }
         ]
@@ -76,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3e2da0f6af7a5317",
@@ -179,20 +182,22 @@
   },
   "active": "fa133dcc1c76e77e",
   "lastOpenFiles": [
+    "Pasted image 20250520120134.png",
+    "Pasted image 20250520114814.png",
+    "3-1/Alagorithm_Practice/Chapter 4-2. The Greedy Approach.md",
+    "3-1/Alagorithm_Practice/Chapter 5-7. Knapsack Problem.md",
+    "3-1/Alagorithm_Practice/Chapter 5. Backtracking.md",
+    "Pasted image 20250519212712.png",
     "Pasted image 20250519213020.png",
-    "3-1/Alagorithm_Practice/Chapter 4.5 & 5.7. Knapsack Problem.md",
     "3-1/Programming_Basic/14-2. 포인터2.md",
     "3-1/Data_Communication/Chpater 3-2. Wireless Transmissions.md",
     "Pasted image 20250519230949.png",
     "Pasted image 20250519214109.png",
-    "Pasted image 20250519212712.png",
     "Image/CSMA2.png",
     "Image/CSMA1.png",
     "3-1/Network_Programming/Chapter 14. Multicast, Broadcast.md",
     "3-1/Network_Programming/Chapter 13. 다양한 입출력 함수들.md",
     "3-1/Programming_Basic/Chapter 14-1. 포인터 기초.md",
-    "3-1/Alagorithm_Practice/Chapter 5. Backtracking.md",
-    "3-1/Alagorithm_Practice/Chapter 4-2. The Greedy Approach.md",
     "3-1/Data_Communication/Chapter 3-1. Data-Link Layer.md",
     "Socket/Thread.md",
     "계획.md"
