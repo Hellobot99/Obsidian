@@ -28,7 +28,7 @@ void knapsack1(int& maxprofit, int& totweight) {
 ---
 #### DP 접근
 
-![[Pasted image 20250520114814.png]]
+![[dp.png]]
 
 - P \[몇 번 아이템까지 선택가능인지] \[최대 무게]
 - 왼쪽 서브 트리 : 선택 x (선택안할거니까 선택가능에서 제외)
@@ -56,7 +56,7 @@ int knapsack3(int n, int W, int w[], int p[], map, int> &P) {
 - 무게 당 가치 내림차순으로 정렬
 ex) n =4,W = 16, p\[40,30,50,10], w\[2,5,10,5], p/w\[20,6,5,2]
 
-![[Pasted image 20250520120134.png]]
+![[backtracking.png]]
 
 1. 방문한 노드에서 얻을 수 있는 최대 이익 계산 후 maxprofit 최신화
 2. bound 계산해서 maxprofit 보다 작으면 잘라내기

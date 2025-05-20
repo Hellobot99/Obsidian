@@ -537,10 +537,10 @@ CSMA/CA 도 있다.
 ## Controlled Access
 
 - Reservation : 데이터 스테이션은 데이터를 보내기 전에 미리 예약을 한다.
-![[Pasted image 20250519212712.png]]
+![[reservation.png]]
 
 - Polling : Primary station 과 secondary stations 사이에서 Primary 가 secondary 한테 Poll을 보내면 secondary stations이 대답하는 구조
-![[Pasted image 20250519213020.png]]
+![[poll.png]]
 
 - Token Passing : station 사이에서 토큰이 돌면서 제어권을 획득
 
@@ -548,7 +548,7 @@ CSMA/CA 도 있다.
 
 - 패킷을 **어떤 경로로 보낼지는 다른 정보가 필요**, 경로는 알 수 없음
 - IP 헤더에 있는 **Source IP**와 **Destination IP**는 누가 보냈고, 누가 받아야 하는지를 명확히 함
-![[Pasted image 20250519214109.png]]
+![[ipadress.png]]
 
 Unicast Address :
 	A2:34:45:11:92:F1 처럼 두번째 숫자가 짝수
@@ -616,7 +616,7 @@ Broadcast address :
 
 ### Reservation
 
-![[Pasted image 20250519212712.png]]
+![[reservation.png]]
 
 - 시간 슬롯이 존재하며, **미리 예약**한 스테이션만 데이터 전송 가능
     
@@ -625,7 +625,7 @@ Broadcast address :
 
 ### Polling
 
-![[Pasted image 20250519213020.png]]
+![[poll.png]]
 
 - **Primary Station**이 모든 통신 제어권 가짐
     
@@ -648,7 +648,7 @@ Broadcast address :
 > IP 주소만으로는 **중간 경로의 링크 주소**를 결정할 수 없음  
 > 따라서 링크 계층 주소 (MAC address)가 필요
 
-![[Pasted image 20250519214109.png]]
+![[ipadress.png]]
 ### Address 종류
 
 - **Unicast Address** : 한 호스트에만 전달
