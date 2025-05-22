@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c4adf9230ecbe269",
+        "id": "7f1adfbad1723c44",
         "type": "tabs",
         "children": [
           {
-            "id": "fa133dcc1c76e77e",
+            "id": "72e1650e341b00eb",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "markdown",
+              "state": {
+                "file": "3-1/Programming_Basic/Chapter 15. 파일처리.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 15. 파일처리"
             }
           }
         ]
@@ -175,9 +179,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fa133dcc1c76e77e",
+  "active": "72e1650e341b00eb",
   "lastOpenFiles": [
+    "Image/filemode.png",
     "3-1/Programming_Basic/Chapter 13. 구조체와 공용체.md",
+    "3-1/Programming_Basic/Chapter 15. 파일처리.md",
+    "3-1/System_Programming/Chpater 9. A Programmable Shell, Shell Variables and Environment.md",
+    "3-1/System_Programming/Chapter 8. Processes and Programs.md",
+    "3-1/Alagorithm_Practice/Chapter 5-7. Knapsack Problem.md",
+    "무제.canvas",
     "3-1/Programming_Basic/Chpater 14-2. 포인터2.md",
     "Image/dp.png",
     "Image/backtracking.png",
@@ -185,7 +195,6 @@
     "Image/ipadress.png",
     "Image/poll.png",
     "Image/reservation.png",
-    "3-1/Alagorithm_Practice/Chapter 5-7. Knapsack Problem.md",
     "3-1/Alagorithm_Practice/Chapter 4-2. The Greedy Approach.md",
     "3-1/Alagorithm_Practice/Chapter 5. Backtracking.md",
     "3-1/Data_Communication/Chpater 3-2. Wireless Transmissions.md",

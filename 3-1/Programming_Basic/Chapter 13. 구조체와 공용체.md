@@ -32,7 +32,6 @@ typedef struct
 
 int main(){
 	struct book mybook;
-	book1 mybook1;
 	book2 mybook2;
 }
 ```
