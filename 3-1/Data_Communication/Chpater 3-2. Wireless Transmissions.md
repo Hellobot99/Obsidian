@@ -60,3 +60,49 @@
 - 주기적인 파동은 기본 주파수가 정수배인 주파수의 파동들로 구성됨
 
 ![[wave1.png]]
+![[cos.png]]
+
+#### Power Spectrum
+
+![[graph.png]]
+- a(k)가 얼마나 함유되어있나를 나타냄.
+
+#### Baseband Bandwidth
+
+- 필터로 인해 가질 수 있는 최대 주파수
+
+![[Pasted image 20250529074747.png]]
+필터 전 / 필터 후
+
+#### Passband Bandwidth
+
+- PassBand : 중심이 0 이 아닌 이동된 주파수
+- 상한 주파수와 하한 주파수의 사이의 차이
+
+
+## Digital Modulation
+
+![[Pasted image 20250529075500.png]]
+
+#### ASK (Amplitude Shift Keying)
+
+- 보내면 1, 안보내면 0
+- 간섭, 먼 거리에 취약함
+ 
+![[Pasted image 20250529080745.png]]
+
+#### FSK (Frequency Shift Keying)
+
+- 진동수 크면 1, 작으면 0
+- bandwidth 가 커야함
+![[Pasted image 20250529133539.png]]
+
+#### MFSK (Multilevel FSK)
+
+- 레벨이 여러개인 FSK
+- 2f(d) = 1/T(s) 만큼은 띄어야함.
+
+![[Pasted image 20250529133744.png]]
+
+- ex) f(c) = 250kHz, f(d) = 25kHz, M =8(L = 3bits) 일 때 8개의 진동수를 구할 수 있음. 
+- 75kHz, 125kHz, 175kHz, 225kHz, 275kHz, 325kHz, 375kHz, 425kHz

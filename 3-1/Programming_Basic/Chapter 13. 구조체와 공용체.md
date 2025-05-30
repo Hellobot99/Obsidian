@@ -73,6 +73,20 @@ struct book clang[3] = {
 };
 ```
 
+## 구조체 패킹
+
+- 구조체의 멤버는 메모리에 word 단위로 잘려서 배치된다.
+
+```c
+typedef struct GradeStudent { 
+int age; // 4 bytes 
+char grade[3]; // 4 bytes 점유. 마지막 1 byte는 사용안함 
+char name[22]; // 24 bytes 점유. 마지막 2 byte는 사용안함 
+double score; // 8 bytes 
+} GradeStudent; // total : 40 bytes
+```
+
+---
 ## 공용체
 
 - 저장공간을 아끼기 위해 서로 다른 자료형을 동일한 저장 공간에 이용
@@ -84,6 +98,8 @@ union data{
 	double real;
 } data1, *pdata;
 ```
+
+---
 ## 열거형
 
 - 정수형 상수 목록의 집합
