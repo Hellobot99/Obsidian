@@ -223,7 +223,8 @@ int main(int argc, char *argv[])
 
 void *read(void *arg) 
 { 
-	int i; for(i=0; i<5; i++) 
+	int i; 
+	for(i=0; i<5; i++) 
 	{
 		fputs("Input num: ", stdout);
 		sem_wait(&sem_two); 
