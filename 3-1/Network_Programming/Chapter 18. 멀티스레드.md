@@ -124,6 +124,8 @@ void *thread_inc(void *arg)
 	return NULL; 
 }
 ```
+
+---
 ### 세마포어 기반 동기화
 
 - \#include <semaphore.h>
