@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-1/Data_Communication/Chpater 3-2. Wireless Transmissions.md",
+                "file": "3-1/Programming_Basic/Chapter 15-2. 파일처리2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chpater 3-2. Wireless Transmissions"
+              "title": "Chapter 15-2. 파일처리2"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3e2da0f6af7a5317",
@@ -179,10 +178,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4004d4b2dbb1e2c5",
+  "active": "e567dc73b8e1e843",
   "lastOpenFiles": [
-    "Pasted image 20250605135050.png",
+    "3-1/Programming_Basic/Chapter 16. 동적 메모리 할당.md",
     "3-1/Programming_Basic/Chapter 15-2. 파일처리2.md",
+    "3-1/Data_Communication/Chpater 3-2. Wireless Transmissions.md",
+    "Pasted image 20250605135050.png",
     "3-1/Network_Programming/Chapter 18. 멀티스레드.md",
     "무제.canvas",
     "Pasted image 20250530161247.png",
@@ -192,7 +193,6 @@
     "3-1/Alagorithm_Practice/Chapter 6. Branch and Bound.md",
     "3-1/System_Programming/Chapter 10. Threads.md",
     "3-1/System_Programming/Chapter 9. A Programmable Shell, Shell Variables and Environment.md",
-    "3-1/Data_Communication/Chpater 3-2. Wireless Transmissions.md",
     "Pasted image 20250530144706.png",
     "Pasted image 20250529133539.png",
     "Pasted image 20250529133744.png",
@@ -204,7 +204,6 @@
     "3-1/Programming_Basic/Chapter 13. 구조체와 공용체.md",
     "Image/bound5.png",
     "Image/bound4.png",
-    "Image/bound3.png",
     "Socket/Select.md",
     "Socket/Thread.md",
     "3-1/System_Programming/Chapter 8. Processes and Programs.md",
