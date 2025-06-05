@@ -104,5 +104,23 @@
 
 ![[Pasted image 20250529133744.png]]
 
+f(c) : 중심 주파수, f(d) : 주파수 간격
 - ex) f(c) = 250kHz, f(d) = 25kHz, M =8(L = 3bits) 일 때 8개의 진동수를 구할 수 있음. 
 - 75kHz, 125kHz, 175kHz, 225kHz, 275kHz, 325kHz, 375kHz, 425kHz
+- 인접 주파수 간섭을 피하기 위해 T = 1 / (2 * f(d)) = 1 / 50 , Ts = L * T = 1 / 150, Date Rate = 1 / Ts = 150kbps
+
+#### BPSK (Binary Phase Shift Keying)
+
+두 가지 페이즈를 사용 (180도 차이)
+#### DPSK (Diffetential PSK)
+
+0이면 그대로, 1이면  반대로
+
+#### QPSK (Quadrature PSK)
+
+여러개의 페이즈 사용(사진은 90도 차이)
+
+![[Pasted image 20250605135050.png]]
+
+#### OQPSK (Offset QPSK)
+
