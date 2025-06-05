@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2e6250875568170d",
+        "id": "3d7399be83ecb4f4",
         "type": "tabs",
         "children": [
           {
-            "id": "4fc5cbae6ad6914f",
+            "id": "7b5aaa11df13aa00",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -178,15 +178,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4fc5cbae6ad6914f",
+  "active": "7b5aaa11df13aa00",
   "lastOpenFiles": [
+    "3-1/Programming_Basic/Chapter 15-2. 파일처리2.md",
     "3-1/Network_Programming/Chapter 18. 멀티스레드.md",
     "무제.canvas",
     "Pasted image 20250530161247.png",
     "3-1/Network_Programming/Chapter 15. 소켓과 표준 입출력.md",
     "3-1/Network_Programming/Chapter 16. 입출력 스트림 분리.md",
     "Pasted image 20250529075500.png",
-    "3-1/Programming_Basic/Chapter 15-2. 파일처리2.md",
     "3-1/Alagorithm_Practice/Chapter 6. Branch and Bound.md",
     "3-1/System_Programming/Chapter 10. Threads.md",
     "3-1/System_Programming/Chapter 9. A Programmable Shell, Shell Variables and Environment.md",
