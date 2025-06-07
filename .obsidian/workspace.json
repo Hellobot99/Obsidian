@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-1/Data_Communication/Chpater 3-2. Wireless Transmissions.md",
+                "file": "3-1/System_Programming/Chapter 11. Pipes and Sockets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chpater 3-2. Wireless Transmissions"
+              "title": "Chapter 11. Pipes and Sockets"
             }
           }
         ]
@@ -181,18 +181,25 @@
   },
   "active": "4004d4b2dbb1e2c5",
   "lastOpenFiles": [
-    "Pasted image 20250605135050.png",
+    "Pasted image 20250607153110.png",
+    "3-1/System_Programming/Chapter 10. Threads.md",
+    "3-1/System_Programming/Chapter 11. Pipes and Sockets.md",
+    "3-1/System_Programming/Chapter 9. A Programmable Shell, Shell Variables and Environment.md",
+    "3-1/Network_Programming/Chapter 10. 멀티프로세스 기반의 서버 구현.md",
+    "3-1/Network_Programming/Chapter 11. 프로세스 간 통신.md",
+    "3-1/Network_Programming/Chapter 12. IO 멀티플렉싱 기반 서버.md",
+    "3-1/Network_Programming/Chapter 13. 다양한 입출력 함수들.md",
+    "3-1/Network_Programming/Chapter 15. 소켓과 표준 입출력.md",
     "3-1/Programming_Basic/Chapter 15-2. 파일처리2.md",
+    "3-1/Programming_Basic/Chapter 16. 동적 메모리 할당.md",
+    "3-1/Data_Communication/Chpater 3-2. Wireless Transmissions.md",
+    "Pasted image 20250605135050.png",
     "3-1/Network_Programming/Chapter 18. 멀티스레드.md",
     "무제.canvas",
     "Pasted image 20250530161247.png",
-    "3-1/Network_Programming/Chapter 15. 소켓과 표준 입출력.md",
     "3-1/Network_Programming/Chapter 16. 입출력 스트림 분리.md",
     "Pasted image 20250529075500.png",
     "3-1/Alagorithm_Practice/Chapter 6. Branch and Bound.md",
-    "3-1/System_Programming/Chapter 10. Threads.md",
-    "3-1/System_Programming/Chapter 9. A Programmable Shell, Shell Variables and Environment.md",
-    "3-1/Data_Communication/Chpater 3-2. Wireless Transmissions.md",
     "Pasted image 20250530144706.png",
     "Pasted image 20250529133539.png",
     "Pasted image 20250529133744.png",
@@ -204,16 +211,12 @@
     "3-1/Programming_Basic/Chapter 13. 구조체와 공용체.md",
     "Image/bound5.png",
     "Image/bound4.png",
-    "Image/bound3.png",
     "Socket/Select.md",
     "Socket/Thread.md",
     "3-1/System_Programming/Chapter 8. Processes and Programs.md",
     "3-1/Alagorithm_Practice/Chapter 5-7. Knapsack Problem.md",
     "3-1/Alagorithm_Practice/Chapter 4-2. The Greedy Approach.md",
     "3-1/Alagorithm_Practice/Chapter 5. Backtracking.md",
-    "3-1/Network_Programming/Chapter 14. Multicast, Broadcast.md",
-    "3-1/Network_Programming/Chapter 13. 다양한 입출력 함수들.md",
-    "3-1/Data_Communication/Chapter 3-1. Data-Link Layer.md",
-    "계획.md"
+    "3-1/Network_Programming/Chapter 14. Multicast, Broadcast.md"
   ]
 }
