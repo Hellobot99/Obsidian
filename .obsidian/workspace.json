@@ -11,14 +11,28 @@
             "id": "7b5aaa11df13aa00",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "3-1/System_Programming/Chapter 11. Pipes and Sockets.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Chapter 11. Pipes and Sockets"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
+          },
+          {
+            "id": "eb36fb369def8b2b",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -78,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3e2da0f6af7a5317",
@@ -179,11 +192,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4004d4b2dbb1e2c5",
+  "active": "7b5aaa11df13aa00",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "3-1/System_Programming/Chapter 11. Pipes and Sockets.md",
     "Pasted image 20250607153110.png",
     "3-1/System_Programming/Chapter 10. Threads.md",
-    "3-1/System_Programming/Chapter 11. Pipes and Sockets.md",
     "3-1/System_Programming/Chapter 9. A Programmable Shell, Shell Variables and Environment.md",
     "3-1/Network_Programming/Chapter 10. 멀티프로세스 기반의 서버 구현.md",
     "3-1/Network_Programming/Chapter 11. 프로세스 간 통신.md",
@@ -210,7 +224,6 @@
     "3-1/Programming_Basic/Chapter 14-2. 포인터2.md",
     "3-1/Programming_Basic/Chapter 13. 구조체와 공용체.md",
     "Image/bound5.png",
-    "Image/bound4.png",
     "Socket/Select.md",
     "Socket/Thread.md",
     "3-1/System_Programming/Chapter 8. Processes and Programs.md",
