@@ -124,3 +124,32 @@ f(c) : 중심 주파수, f(d) : 주파수 간격
 
 #### OQPSK (Offset QPSK)
 
+- QPSK에서 Q채널을 지연시킴으로써 한 번에 하나의 채널만 변화됨
+- 위상변화가 90도를 넘길 수 없음
+- QPSK보다 에러에 강함
+
+---
+
+#### Multilevel PSK (8 PSK)
+
+- 8PSK는 한번에 세 개의 비트 전송가능
+- 각 앵글은 하나보다 많은 Amplitude를 가짐
+- 위상 간 간격이 좁아질 수록 에러가 많이 발생함
+
+![[Pasted image 20250608165415.png]]
+
+---
+
+#### MSK (Mimimum Shift Keying)
+
+- 위상(phase)의 연속성을 유지하는 방식
+
+---
+
+#### QAM (Quadrature Amplitude Modulation)
+
+- ASK(진폭) 와 PSK(위상)를 합침
+- **직교하는 두 반송파**(cos, sin)를 사용하여 두 신호를 동시에 전송
+- 점이 많아 질수록 에러에 민감
+
+![[Pasted image 20250608170125.png]]

@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3d7399be83ecb4f4",
+        "id": "91bf27fc916678ae",
         "type": "tabs",
         "children": [
           {
-            "id": "7b5aaa11df13aa00",
+            "id": "c432aed167f517b2",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "3-1/Data_Communication/Chapter 7. Network Layer.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
-            }
-          },
-          {
-            "id": "eb36fb369def8b2b",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "Chapter 7. Network Layer"
             }
           }
         ]
@@ -192,11 +178,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7b5aaa11df13aa00",
+  "active": "c432aed167f517b2",
   "lastOpenFiles": [
+    "Pasted image 20250609151546.png",
+    "Pasted image 20250609151212.png",
+    "Pasted image 20250609151210.png",
+    "Pasted image 20250609151159.png",
+    "Pasted image 20250609145633.png",
+    "Pasted image 20250609141955.png",
+    "Pasted image 20250609141455.png",
+    "Pasted image 20250609141426.png",
+    "3-1/Data_Communication/Chapter 7. Network Layer.md",
+    "Pasted image 20250609140433.png",
+    "Pasted image 20250609135623.png",
+    "Pasted image 20250609120135.png",
+    "3-1/Data_Communication/Chapter 4. Local Area Networks.md",
+    "3-1/Data_Communication/Chapter 3-2. Wireless Transmissions.md",
     "conflict-files-obsidian-git.md",
     "3-1/System_Programming/Chapter 11. Pipes and Sockets.md",
-    "Pasted image 20250607153110.png",
     "3-1/System_Programming/Chapter 10. Threads.md",
     "3-1/System_Programming/Chapter 9. A Programmable Shell, Shell Variables and Environment.md",
     "3-1/Network_Programming/Chapter 10. 멀티프로세스 기반의 서버 구현.md",
@@ -206,30 +205,17 @@
     "3-1/Network_Programming/Chapter 15. 소켓과 표준 입출력.md",
     "3-1/Programming_Basic/Chapter 15-2. 파일처리2.md",
     "3-1/Programming_Basic/Chapter 16. 동적 메모리 할당.md",
-    "3-1/Data_Communication/Chpater 3-2. Wireless Transmissions.md",
-    "Pasted image 20250605135050.png",
     "3-1/Network_Programming/Chapter 18. 멀티스레드.md",
     "무제.canvas",
-    "Pasted image 20250530161247.png",
     "3-1/Network_Programming/Chapter 16. 입출력 스트림 분리.md",
-    "Pasted image 20250529075500.png",
     "3-1/Alagorithm_Practice/Chapter 6. Branch and Bound.md",
-    "Pasted image 20250530144706.png",
-    "Pasted image 20250529133539.png",
-    "Pasted image 20250529133744.png",
     "3-1/Programming_Basic/Chapter 15-1. 파일처리1.md",
     "3-1/Programming_Basic/Chapter 14-1. 포인터 기초.md",
-    "Pasted image 20250529074747.png",
-    "Pasted image 20250529080745.png",
     "3-1/Programming_Basic/Chapter 14-2. 포인터2.md",
     "3-1/Programming_Basic/Chapter 13. 구조체와 공용체.md",
-    "Image/bound5.png",
     "Socket/Select.md",
     "Socket/Thread.md",
     "3-1/System_Programming/Chapter 8. Processes and Programs.md",
-    "3-1/Alagorithm_Practice/Chapter 5-7. Knapsack Problem.md",
-    "3-1/Alagorithm_Practice/Chapter 4-2. The Greedy Approach.md",
-    "3-1/Alagorithm_Practice/Chapter 5. Backtracking.md",
-    "3-1/Network_Programming/Chapter 14. Multicast, Broadcast.md"
+    "3-1/Alagorithm_Practice/Chapter 5-7. Knapsack Problem.md"
   ]
 }
