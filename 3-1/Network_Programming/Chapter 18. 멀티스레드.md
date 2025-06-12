@@ -84,7 +84,7 @@ void* thread_main(void *arg)
 - 스레드에 일을 시키고, 그 결과를 취합하여 결과 도출
 - 공유 메모리에 동시 접근 시 문제 발생 - 임계영역
 
-![[Pasted image 20250530144706.png]]
+![[a6.png]]
 
 ---
 # 스레드 동기화
@@ -197,7 +197,7 @@ void *thread2_func(void *arg)
 
 ### 두 개의 세마포어를 활용한 접근 순서 동기화
 
-![[Pasted image 20250530161247.png]]
+![[a7.png]]
 
 ```c
 static sem_t sem_one; 

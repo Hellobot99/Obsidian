@@ -39,13 +39,13 @@
 
 - 기본 셋
 
-![[Pasted image 20250608232313.png]]
+![[a12.png]]
 
 #### ESS (Extended Service Set)
 
 - BSS 모아 둔 거
 
-![[Pasted image 20250608232608.png]]
+![[a13.png]]
 
 ## Station Type
 
@@ -57,7 +57,7 @@
 
 ### DCF (Distribution Coordination Function)
 
-![[Pasted image 20250608233429.png]]
+![[a14.png]]
 
 - Contention service
 - 보내기 전에 RTS를 전송, RTS를 받으면 주변에 CTS 전송, RTS, CTS를 받으면 전송을 중단함
@@ -77,16 +77,16 @@
 
 ## Frame Format
 
-![[Pasted image 20250608234848.png]]
+![[a16.png]]
 
 #### FC 필드
 
-![[Pasted image 20250608234955.png]]
+![[a17.png]]
 - 4가지의 경우가 생기는데, 각 케이스마다 4개의 주소 필드에 들어가는 게 달라짐
 
 ### Exposed Station Problem 
 
-![[Pasted image 20250608235410.png]]
+![[a18.png]]
 
 - A 때문에 C->D가 지연됨으로써 손실 발생
 

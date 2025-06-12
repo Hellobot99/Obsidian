@@ -19,7 +19,7 @@
     
 - 한쪽은 쓰고, 다른 쪽은 읽는 방식으로 사용.
 
-![[Pasted image 20250607153110.png]]
+![[a9.png]]
 
 #### Reading from Pipes
 
