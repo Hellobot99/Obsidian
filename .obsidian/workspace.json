@@ -35,12 +35,14 @@
             "id": "4296bfabe9ba2d13",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Image/a5.png"
+                "file": "3-1/Programming_Basic/Chapter 17. 연결리스트.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "a5"
+              "icon": "lucide-file",
+              "title": "Chapter 17. 연결리스트"
             }
           }
         ],
@@ -201,11 +203,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e567dc73b8e1e843",
+  "active": "4296bfabe9ba2d13",
   "lastOpenFiles": [
+    "3-1/Programming_Basic/Chapter 16. 동적 메모리 할당.md",
+    "3-1/Programming_Basic/Chapter 17. 연결리스트.md",
+    "Image/a5.png",
     "Image/a7.png",
     "Image/a6.png",
-    "Image/a5.png",
     "Image/a4.png",
     "Image/a3.png",
     "Image/a2.png",
@@ -214,7 +218,6 @@
     "Image/a33.png",
     "Image/a32.png",
     "Image/a31.png",
-    "Image/a30.png",
     "3-1/Data_Communication/Chapter 4. Local Area Networks.md",
     "3-1/Data_Communication/Chapter 3-2. Wireless Transmissions.md",
     "conflict-files-obsidian-git.md",
@@ -227,7 +230,6 @@
     "3-1/Network_Programming/Chapter 13. 다양한 입출력 함수들.md",
     "3-1/Network_Programming/Chapter 15. 소켓과 표준 입출력.md",
     "3-1/Programming_Basic/Chapter 15-2. 파일처리2.md",
-    "3-1/Programming_Basic/Chapter 16. 동적 메모리 할당.md",
     "3-1/Network_Programming/Chapter 18. 멀티스레드.md",
     "무제.canvas",
     "3-1/Network_Programming/Chapter 16. 입출력 스트림 분리.md",
