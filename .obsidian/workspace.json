@@ -4,49 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "91bf27fc916678ae",
+        "id": "37667047b36c3075",
         "type": "tabs",
         "children": [
           {
-            "id": "c432aed167f517b2",
+            "id": "0720ba632884f4da",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "split-diff-view",
               "state": {
-                "file": "Image/a5.png"
+                "aFile": "3-1/Network_Programming/Chapter 17. Epoll.md",
+                "bFile": "3-1/Network_Programming/Chapter 17. Epoll.md",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "lucide-image",
-              "title": "a5"
-            }
-          },
-          {
-            "id": "3b731c1483a875ed",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Image/a6.png"
-              },
-              "icon": "lucide-image",
-              "title": "a6"
-            }
-          },
-          {
-            "id": "4296bfabe9ba2d13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3-1/Programming_Basic/Chapter 17. 연결리스트.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Chapter 17. 연결리스트"
+              "icon": "diff",
+              "title": "Diff: Chapter 17. Epoll"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,10 +179,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4296bfabe9ba2d13",
+  "active": "0720ba632884f4da",
   "lastOpenFiles": [
-    "3-1/Programming_Basic/Chapter 16. 동적 메모리 할당.md",
+    "Pasted image 20250613154526.png",
+    "3-1/Network_Programming/Chapter 17. Epoll.md",
+    "3-1/System_Programming/Chapter 10. Threads.md",
+    "3-1/Network_Programming/Chapter 18. 멀티스레드.md",
+    "3-1/Network_Programming/Appendix 4. 문자열 처리.md",
+    "3-1/Network_Programming/Chapter 9. 소켓 옵션과 입출력 버퍼의 크기.md",
     "3-1/Programming_Basic/Chapter 17. 연결리스트.md",
+    "3-1/Programming_Basic/Chapter 16. 동적 메모리 할당.md",
     "Image/a5.png",
     "Image/a7.png",
     "Image/a6.png",
@@ -217,12 +199,10 @@
     "3-1/Data_Communication/Chapter 7. Network Layer.md",
     "Image/a33.png",
     "Image/a32.png",
-    "Image/a31.png",
     "3-1/Data_Communication/Chapter 4. Local Area Networks.md",
     "3-1/Data_Communication/Chapter 3-2. Wireless Transmissions.md",
     "conflict-files-obsidian-git.md",
     "3-1/System_Programming/Chapter 11. Pipes and Sockets.md",
-    "3-1/System_Programming/Chapter 10. Threads.md",
     "3-1/System_Programming/Chapter 9. A Programmable Shell, Shell Variables and Environment.md",
     "3-1/Network_Programming/Chapter 10. 멀티프로세스 기반의 서버 구현.md",
     "3-1/Network_Programming/Chapter 11. 프로세스 간 통신.md",
@@ -230,17 +210,12 @@
     "3-1/Network_Programming/Chapter 13. 다양한 입출력 함수들.md",
     "3-1/Network_Programming/Chapter 15. 소켓과 표준 입출력.md",
     "3-1/Programming_Basic/Chapter 15-2. 파일처리2.md",
-    "3-1/Network_Programming/Chapter 18. 멀티스레드.md",
     "무제.canvas",
     "3-1/Network_Programming/Chapter 16. 입출력 스트림 분리.md",
     "3-1/Alagorithm_Practice/Chapter 6. Branch and Bound.md",
     "3-1/Programming_Basic/Chapter 15-1. 파일처리1.md",
     "3-1/Programming_Basic/Chapter 14-1. 포인터 기초.md",
     "3-1/Programming_Basic/Chapter 14-2. 포인터2.md",
-    "3-1/Programming_Basic/Chapter 13. 구조체와 공용체.md",
-    "Socket/Select.md",
-    "Socket/Thread.md",
-    "3-1/System_Programming/Chapter 8. Processes and Programs.md",
-    "3-1/Alagorithm_Practice/Chapter 5-7. Knapsack Problem.md"
+    "3-1/Programming_Basic/Chapter 13. 구조체와 공용체.md"
   ]
 }
