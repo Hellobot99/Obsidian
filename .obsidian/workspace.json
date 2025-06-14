@@ -13,13 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "3-1/Network_Programming/Chapter 17. Epoll.md",
-                "bFile": "3-1/Network_Programming/Chapter 17. Epoll.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Chapter 17. Epoll"
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -181,9 +180,10 @@
   },
   "active": "0720ba632884f4da",
   "lastOpenFiles": [
-    "Pasted image 20250613154526.png",
-    "3-1/Network_Programming/Chapter 17. Epoll.md",
     "3-1/System_Programming/Chapter 10. Threads.md",
+    "3-1/System_Programming/Chapter 11. Pipes and Sockets.md",
+    "3-1/Network_Programming/Chapter 17. Epoll.md",
+    "Pasted image 20250613154526.png",
     "3-1/Network_Programming/Chapter 18. 멀티스레드.md",
     "3-1/Network_Programming/Appendix 4. 문자열 처리.md",
     "3-1/Network_Programming/Chapter 9. 소켓 옵션과 입출력 버퍼의 크기.md",
@@ -202,7 +202,6 @@
     "3-1/Data_Communication/Chapter 4. Local Area Networks.md",
     "3-1/Data_Communication/Chapter 3-2. Wireless Transmissions.md",
     "conflict-files-obsidian-git.md",
-    "3-1/System_Programming/Chapter 11. Pipes and Sockets.md",
     "3-1/System_Programming/Chapter 9. A Programmable Shell, Shell Variables and Environment.md",
     "3-1/Network_Programming/Chapter 10. 멀티프로세스 기반의 서버 구현.md",
     "3-1/Network_Programming/Chapter 11. 프로세스 간 통신.md",
